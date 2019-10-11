@@ -13,7 +13,7 @@ If you place text next to an image it will render inline next to the bottom of t
 3. Style the container. Create a horizontal width for the wrapped content such that it takes up 25% of the viewable page and sets height to auto.  We'll float the image to the left and so we need to align the text to the left and provide a margin.
 ```
 .wrapped {
-  width:25%;
+  width:35%;
   height: auto;
   text-align: left;
   margin: 1rem;
@@ -24,7 +24,7 @@ If you place text next to an image it will render inline next to the bottom of t
 .wrapped img {
   display: block;
   float: left;
-  padding: 5px;
+  padding: 20px;
   width:150px;
   height: auto;
 }
